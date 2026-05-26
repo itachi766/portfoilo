@@ -71,3 +71,7 @@ export default defineConfig([
   },
 ])
 ```
+First Face of website
+
+<!-- Simple -->
+![Portfolio Preview](rishikdev.png.png)
