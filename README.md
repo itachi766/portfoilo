@@ -53,3 +53,12 @@ npm run build
 
 ## 🔒 Security Configuration
 Private configuration keys and tokens are securely isolated in a local-only `.env` file, which is actively ignored by the local `.gitignore` rule to prevent credentials from ever leaking to public repository feeds.
+
+---
+
+## 📸 Preview
+
+First Face of website
+
+<!-- Simple -->
+![Portfolio Preview](rishikdev.png.png)
