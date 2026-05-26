@@ -1,73 +1,55 @@
-# React + TypeScript + Vite
+# 🌿 Premium Nature Botanical Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, visually stunning developer portfolio website inspired by high-end interactive editorials. Built with a deep organic forest shadow theme, custom glassmorphism panels, drifting botanical dew particles, and fluid momentum-based scrolling physics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🌿 **Organic Botanical Aesthetic**: A premium nature theme featuring deep pine shadow, sage leaf borders, and warm sunflower sunbeam highlights.
+- 🌊 **Inertial Momentum Scrolling**: Global buttery-smooth physics-based scrolling powered by the industry-standard **Lenis** engine.
+- ⚡ **Line-by-Line Staggered Reveals**: IntersectionObserver-based text transitions that slide and fade in staggered sequences as they enter the viewport.
+- 🎮 **Interactive Canvas Arcade**: A fully responsive retro **Snake Game** built from scratch utilizing the HTML5 Canvas API in React, featuring touchscreen D-pad controls for mobile and localStorage high score tracking.
+- 🛰️ **Reactive Cursor Spotlight**: A spotlight effect that tracks mouse coordinates on project cards.
+- 📬 **Transmitting Contact Widget**: A beautiful glass-shaded contact form integrated with **Web3Forms** and local environment variables for secure transmission.
+- 🖼️ **Custom AI-Generated Illustrations**: Stunning computer vision showcase assets integrated as project headers.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Core**: React 19 + TypeScript
+- **Bundler & Dev Server**: Vite 8
+- **Styling Engine**: Tailwind CSS v4 + Vanilla CSS Variables
+- **Animations**: Framer Motion
+- **Momentum Physics**: Lenis Scrolling Engine
+- **Forms**: Web3Forms API Integration
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 How to Run Locally
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository and navigate into the folder:
+```bash
+cd "C:\Users\Rishik Kumar Singh\OneDrive\Desktop\pro2"
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2. Install dependencies:
+```bash
+npm install
 ```
+
+### 3. Spin up the Vite development server:
+```bash
+npm run dev
+```
+
+### 4. Build for production:
+```bash
+npm run build
+```
+
+---
+
+## 🔒 Security Configuration
+Private configuration keys and tokens are securely isolated in a local-only `.env` file, which is actively ignored by the local `.gitignore` rule to prevent credentials from ever leaking to public repository feeds.

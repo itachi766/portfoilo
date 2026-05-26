@@ -20,12 +20,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'NekoVerse Hub',
-    description: 'A 3D virtual web social space for anime collectors. Features real-time interactive room viewing, customized room decorating widgets, and instant multiplayer chat.',
-    image: './nekoverse.png',
-    tags: ['React', 'Three.js', 'WebSockets', 'Node.js'],
-    github: 'https://github.com/Rishik/NekoVerse',
-    live: 'https://nekoverse.dev',
+    title: 'Human Detection & Tracking System',
+    description: 'A high-performance, real-time Human Detection and tracking system in Python using YOLOv8 and MobileNet-SSD. Built with OpenCV for both static images and live webcam video feeds.',
+    image: './human_detection.png',
+    tags: ['Python', 'OpenCV', 'YOLOv8', 'MobileNet-SSD'],
+    github: 'https://github.com/itachi766/Human-detection-openCV.git',
+    live: 'https://github.com/itachi766/Human-detection-openCV.git',
     color: 'var(--accent-purple)',
   },
   {
